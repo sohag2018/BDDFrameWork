@@ -1,0 +1,96 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Many login feature test",
+        "description": "",
+        "id": "many-login-feature;many-login-feature-test;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user is in the signin page",
+            "match": {
+              "location": "ManyLoginSteps.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user enters \"kashem1956@gmail.com\" and \"\u003cpassword\"\u003e",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@many"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Many login feature test",
+        "description": "",
+        "id": "many-login-feature;many-login-feature-test;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user is in the signin page",
+            "match": {
+              "location": "ManyLoginSteps.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user enters \"nafasatzayan@gmail.com\" and \"\u003cpassword\"\u003e",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@many"
+          }
+        ]
+      }
+    ],
+    "name": "Many login feature",
+    "description": "",
+    "id": "many-login-feature",
+    "keyword": "Feature",
+    "uri": "ManyLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@many"
+      }
+    ]
+  }
+]
